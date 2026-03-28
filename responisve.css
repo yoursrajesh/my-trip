@@ -1,0 +1,161 @@
+/* XXL devices (very large screens, 1400px and up) */
+@media (min-width: 1400px) { 
+   
+}
+
+/* Extra large devices (large desktops, 1200px to 1399.98px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+}
+
+/* Large devices (desktops, 992px to 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+}
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   
+}
+
+/* Small devices (phones, 576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .py-5 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.section-header p {
+   margin:  0 auto;
+   width: 100%;
+}
+
+.itinerary-wrapper {
+    padding: 1rem 10px;
+}
+
+
+.tabs-glass {
+      gap: 0.6rem;
+    padding: 0.8rem 0.5m;
+   
+}
+
+
+.tabs-glass {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+
+.tab-btn {
+   padding: 7px;
+}
+
+
+.tab-pane.active {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.day-card-glass {
+    border-radius: 10px;
+    margin: 0 0rem 0em 0rem;
+}
+
+
+
+
+
+
+.day-card-header {
+  
+    padding: 1.0rem;
+    
+}
+
+
+
+.day-card-body {
+    padding: 1rem;
+}
+
+
+.info-badge {
+  margin: 5px 0;
+}
+
+
+.day-slider {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+
+.bg-warning {
+   
+    display: none;
+}
+
+.my-checks1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+}
+
+
+.packing-parallax {
+    background-attachment: scroll;
+    margin: 0rem 0;
+    border-radius: 0;
+}
+
+.budget-glass {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+
+.reality-glass {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: rgb(255 255 255 / 75%) !important;
+}
+
+.team-section {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.footer-content {
+    padding: 2rem 1rem 1rem;
+}
+
+.footer-links {
+    flex-direction:row;
+    gap: 0.5rem;
+
+  
+}
+body {
+    padding-bottom: 75px;
+}
+
+}
